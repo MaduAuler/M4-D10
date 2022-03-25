@@ -1,0 +1,42 @@
+.colorGray {
+  color: rgb(206, 203, 203);
+}
+
+.cut {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.backgroundGradient {
+  width: 84.2%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 62%,
+    rgba(13, 77, 113, 1) 100%
+  );
+}
+
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 62%,
+    rgba(13, 77, 113, 1) 100%
+  );
+}
+
+.headerColor {
+  background-color: rgb(12, 68, 100);
+}
+
+.button {
+  height: 32px;
+  width: 160px;
+  background: #171818;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: white;
+  font-weight: 600;
+}
