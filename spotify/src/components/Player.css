@@ -1,0 +1,16 @@
+.imgSquare{
+    height: 70px;
+    width: 70px;
+}
+
+.divBar{
+    height: 5px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.icons{
+    font-size: 1.5rem;
+   color: white;
+}

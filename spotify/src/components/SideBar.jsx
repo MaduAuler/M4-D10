@@ -2,14 +2,15 @@ import {Container} from "react-bootstrap";
 import { BsFillHouseDoorFill , BsSearch, BsFillPlusSquareFill, BsFillBookmarkHeartFill, BsThreeDots } from "react-icons/bs";
 import { BiLibrary } from "react-icons/bi"
 import './Styles.css'
+import {Link} from 'react-router-dom'
 
 const SideBar =()=> (
   <>
    <Container className='sidebar'>
        <BsThreeDots/>
-       <div className="d-flex mb-1 align-items-center text-center">
-       <BsFillHouseDoorFill className="icons"/>
-            <p className="colorGray">Home</p>
+       <div className="d-flex mb-1 align-items-center text-center  ">
+       <div><BsFillHouseDoorFill className="icons"/></div>
+          <div><Link to='/'><p className="colorGray">Home</p></Link> </div> 
        </div>
 
        <div className="d-flex mb-1">
@@ -29,7 +30,7 @@ const SideBar =()=> (
 
         <div className="d-flex mb-1">
             <BsFillBookmarkHeartFill/>
-        <p className="colorGray">Liked Songs</p>
+       <Link to='/liked'><p className="colorGray">Liked Songs</p></Link> 
         </div>
 
 
